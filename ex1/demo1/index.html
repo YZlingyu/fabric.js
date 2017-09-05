@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="../fabric.js"></script>
+</head>
+
+<body>
+    <canvas id="c" width="800" height="800"></canvas>
+    <script>
+        var canvas = new fabric.Canvas('c');
+        var rect = new fabric.Rect({
+            left: 100,
+            top: 100,
+            fill: 'red',
+            width: 30,
+            height: 30
+        });
+        canvas.add(rect);
+    </script>
+</body>
+
+</html>
